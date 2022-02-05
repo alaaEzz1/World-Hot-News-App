@@ -1,0 +1,37 @@
+com/elmohandes/articlesapp/Models/Articles.java
+ com.elmohandes.articlesapp.Models.Articles
+com/elmohandes/articlesapp/util/Constans.java
+ com.elmohandes.articlesapp.util.Constans
+com/elmohandes/articlesapp/Models/WebSite.java
+ com.elmohandes.articlesapp.Models.WebSite
+com/elmohandes/articlesapp/Models/News.java
+ com.elmohandes.articlesapp.Models.News
+com/elmohandes/articlesapp/retrofitPackage/APIClient.java
+ com.elmohandes.articlesapp.retrofitPackage.APIClient
+com/elmohandes/articlesapp/Models/Source.java
+ com.elmohandes.articlesapp.Models.Source
+com/elmohandes/articlesapp/retrofitPackage/APIInterface.java
+ com.elmohandes.articlesapp.retrofitPackage.APIInterface
+com/elmohandes/articlesapp/BuildConfig.java
+ com.elmohandes.articlesapp.BuildConfig
+com/elmohandes/articlesapp/Adapters/SwipeStackAdapter.java
+ com.elmohandes.articlesapp.Adapters.SwipeStackAdapter
+ com.elmohandes.articlesapp.Adapters.SwipeStackAdapter$1
+com/elmohandes/articlesapp/Adapters/SourceAdapter.java
+ com.elmohandes.articlesapp.Adapters.SourceAdapter
+ com.elmohandes.articlesapp.Adapters.SourceAdapter$SHolder
+com/elmohandes/articlesapp/databinding/ActivityMainBinding.java
+ com.elmohandes.articlesapp.databinding.ActivityMainBinding
+com/elmohandes/articlesapp/databinding/ActivityListstackBinding.java
+ com.elmohandes.articlesapp.databinding.ActivityListstackBinding
+com/elmohandes/articlesapp/databinding/ItemSourceBinding.java
+ com.elmohandes.articlesapp.databinding.ItemSourceBinding
+com/elmohandes/articlesapp/Activities/MainActivity.java
+ com.elmohandes.articlesapp.Activities.MainActivity
+ com.elmohandes.articlesapp.Activities.MainActivity$1
+ com.elmohandes.articlesapp.Activities.MainActivity$2
+com/elmohandes/articlesapp/Activities/ListstackActivity.java
+ com.elmohandes.articlesapp.Activities.ListstackActivity
+ com.elmohandes.articlesapp.Activities.ListstackActivity$1
+com/elmohandes/articlesapp/databinding/CardItemBinding.java
+ com.elmohandes.articlesapp.databinding.CardItemBinding

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lite5\\.gradle\\wrapper\\dists\\gradle-7.0.2-bin\\caches\\transforms-3\\d05e7a9959fb5f9f6f68800c2ca7c608\\transformed\\jetified-library-1.4.0\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "39",
+                        "endOffsets": "90"
+                    }
+                }
+            ]
+        }
+    ]
+}
