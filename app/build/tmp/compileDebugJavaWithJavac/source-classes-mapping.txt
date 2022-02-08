@@ -10,13 +10,31 @@ com/elmohandes/articlesapp/retrofitPackage/APIClient.java
  com.elmohandes.articlesapp.retrofitPackage.APIClient
 com/elmohandes/articlesapp/Models/Source.java
  com.elmohandes.articlesapp.Models.Source
-com/elmohandes/articlesapp/retrofitPackage/APIInterface.java
- com.elmohandes.articlesapp.retrofitPackage.APIInterface
 com/elmohandes/articlesapp/BuildConfig.java
  com.elmohandes.articlesapp.BuildConfig
+com/elmohandes/articlesapp/databinding/ActivityDetailedNewsBinding.java
+ com.elmohandes.articlesapp.databinding.ActivityDetailedNewsBinding
+com/elmohandes/articlesapp/Adapters/DetailedNewsAdapter.java
+ com.elmohandes.articlesapp.Adapters.DetailedNewsAdapter
+ com.elmohandes.articlesapp.Adapters.DetailedNewsAdapter$DetailedNewsVH
+com/elmohandes/articlesapp/Activities/MainActivity.java
+ com.elmohandes.articlesapp.Activities.MainActivity
+ com.elmohandes.articlesapp.Activities.MainActivity$1
+ com.elmohandes.articlesapp.Activities.MainActivity$2
+com/elmohandes/articlesapp/Models/DetailedNews.java
+ com.elmohandes.articlesapp.Models.DetailedNews
+ com.elmohandes.articlesapp.Models.DetailedNews$Article
+ com.elmohandes.articlesapp.Models.DetailedNews$Source
+com/elmohandes/articlesapp/Activities/ListstackActivity.java
+ com.elmohandes.articlesapp.Activities.ListstackActivity
+ com.elmohandes.articlesapp.Activities.ListstackActivity$1
+com/elmohandes/articlesapp/databinding/CardItemBinding.java
+ com.elmohandes.articlesapp.databinding.CardItemBinding
 com/elmohandes/articlesapp/Adapters/SwipeStackAdapter.java
  com.elmohandes.articlesapp.Adapters.SwipeStackAdapter
  com.elmohandes.articlesapp.Adapters.SwipeStackAdapter$1
+com/elmohandes/articlesapp/databinding/DetailedNewsItemBinding.java
+ com.elmohandes.articlesapp.databinding.DetailedNewsItemBinding
 com/elmohandes/articlesapp/Adapters/SourceAdapter.java
  com.elmohandes.articlesapp.Adapters.SourceAdapter
  com.elmohandes.articlesapp.Adapters.SourceAdapter$SHolder
@@ -26,12 +44,7 @@ com/elmohandes/articlesapp/databinding/ActivityListstackBinding.java
  com.elmohandes.articlesapp.databinding.ActivityListstackBinding
 com/elmohandes/articlesapp/databinding/ItemSourceBinding.java
  com.elmohandes.articlesapp.databinding.ItemSourceBinding
-com/elmohandes/articlesapp/Activities/MainActivity.java
- com.elmohandes.articlesapp.Activities.MainActivity
- com.elmohandes.articlesapp.Activities.MainActivity$1
- com.elmohandes.articlesapp.Activities.MainActivity$2
-com/elmohandes/articlesapp/Activities/ListstackActivity.java
- com.elmohandes.articlesapp.Activities.ListstackActivity
- com.elmohandes.articlesapp.Activities.ListstackActivity$1
-com/elmohandes/articlesapp/databinding/CardItemBinding.java
- com.elmohandes.articlesapp.databinding.CardItemBinding
+com/elmohandes/articlesapp/retrofitPackage/APIInterface.java
+ com.elmohandes.articlesapp.retrofitPackage.APIInterface
+com/elmohandes/articlesapp/Activities/DetailedNewsActivity.java
+ com.elmohandes.articlesapp.Activities.DetailedNewsActivity

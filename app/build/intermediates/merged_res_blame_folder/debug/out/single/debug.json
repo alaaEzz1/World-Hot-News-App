@@ -4,6 +4,10 @@
         "source": "E:\\projects\\android\\java\\Articles App\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\layout_detailed_news_item.xml.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\detailed_news_item.xml"
+    },
+    {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -134,6 +138,10 @@
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_share.xml.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\drawable\\ic_baseline_share.xml"
+    },
+    {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detailed_news.xml.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\activity_detailed_news.xml"
     },
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_find_in_page.png.flat",

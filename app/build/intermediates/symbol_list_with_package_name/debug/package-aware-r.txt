@@ -2790,6 +2790,13 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailed_author
+id detailed_desc
+id detailed_image
+id detailed_link
+id detailed_publishedAt
+id detailed_recycler
+id detailed_title
 id dialog_button
 id dimensions
 id direct
@@ -3193,6 +3200,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_detailed_news
 layout activity_liststack
 layout activity_main
 layout browser_actions_context_menu_page
@@ -3214,6 +3222,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout detailed_news_item
 layout dmax_spots_dialog
 layout dp_example
 layout item_source

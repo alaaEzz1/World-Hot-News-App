@@ -43,6 +43,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ArticlesApp" >
         <activity
+            android:name="com.elmohandes.articlesapp.Activities.DetailedNewsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.elmohandes.articlesapp.Activities.ListstackActivity"
             android:exported="true" />
         <activity
@@ -53,13 +56,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5401550443462421~6570167884" />
-        <!-- my app id is ca-app-pub-5401550443462421~6570167884 -->
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

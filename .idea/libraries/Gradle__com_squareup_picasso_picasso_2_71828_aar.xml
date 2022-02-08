@@ -1,21 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.squareup.picasso:picasso:2.71828@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2ca94f7b3ca58aa5a6d054197d5a3cd3/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ca94f7b3ca58aa5a6d054197d5a3cd3/transformed/jetified-picasso-2.71828/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ca94f7b3ca58aa5a6d054197d5a3cd3/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4ae6a0d75da62dd6e9a070a8134b3761/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4ae6a0d75da62dd6e9a070a8134b3761/transformed/jetified-picasso-2.71828/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4ae6a0d75da62dd6e9a070a8134b3761/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/97153a598cdf24b9fd8fa2ee83e5900b/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/97153a598cdf24b9fd8fa2ee83e5900b/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/97153a598cdf24b9fd8fa2ee83e5900b/transformed/jetified-picasso-2.71828/res" />
-      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/41732d8be7552bdb1ceffa8898a68d8e/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/41732d8be7552bdb1ceffa8898a68d8e/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/41732d8be7552bdb1ceffa8898a68d8e/transformed/jetified-picasso-2.71828/res" />
-      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/e23ac67c7d52ac6313421607fff7e13f/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/e23ac67c7d52ac6313421607fff7e13f/transformed/jetified-picasso-2.71828/res" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/e23ac67c7d52ac6313421607fff7e13f/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/6ecc21a7debbbfef31f083aead350465/transformed/jetified-picasso-2.71828/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/6ecc21a7debbbfef31f083aead350465/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/6ecc21a7debbbfef31f083aead350465/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.71828/2843564e6bac90b1e125104d7c842c87a96a8ee9/picasso-2.71828-javadoc.jar!/" />

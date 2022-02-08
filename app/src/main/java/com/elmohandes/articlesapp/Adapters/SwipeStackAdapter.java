@@ -132,7 +132,7 @@ public class SwipeStackAdapter extends BaseAdapter {
 
         try {
             DateFormat dateFormat = new SimpleDateFormat
-                    ("yyy-MM-dd 'T' HH:mm:ss" , Locale.getDefault());
+                    ("yyy-MM-dd'T'HH:mm:ss" , Locale.getDefault());
             SimpleDateFormat format = new SimpleDateFormat("yyy/MM/dd hh:mm a");
             Date date = dateFormat.parse(publishedAt);
             convertedDate = format.format(date);

@@ -4,12 +4,20 @@
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\item_source.xml"
     },
     {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detailed_news_item.xml",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\detailed_news_item.xml"
+    },
+    {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card_item.xml",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\card_item.xml"
     },
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_liststack.xml",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\activity_liststack.xml"
+    },
+    {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detailed_news.xml",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\activity_detailed_news.xml"
     },
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
