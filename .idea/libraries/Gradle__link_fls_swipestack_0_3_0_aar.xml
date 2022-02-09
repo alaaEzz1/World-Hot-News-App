@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: link.fls:swipestack:0.3.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/04c8e4eb0068d0fa43d33be09bf83b49/transformed/jetified-swipestack-0.3.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/04c8e4eb0068d0fa43d33be09bf83b49/transformed/jetified-swipestack-0.3.0/res" />
       <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/04c8e4eb0068d0fa43d33be09bf83b49/transformed/jetified-swipestack-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/04c8e4eb0068d0fa43d33be09bf83b49/transformed/jetified-swipestack-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/04c8e4eb0068d0fa43d33be09bf83b49/transformed/jetified-swipestack-0.3.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/link.fls/swipestack/0.3.0/ff89092d5ac93239db2b55baccaef47510d520f2/swipestack-0.3.0-javadoc.jar!/" />

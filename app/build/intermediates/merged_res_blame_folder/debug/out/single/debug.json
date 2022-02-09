@@ -136,6 +136,10 @@
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_find_in_page.png"
     },
     {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\layout-ldrtl_item_source.xml.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout-ldrtl\\item_source.xml"
+    },
+    {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_share.xml.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\drawable\\ic_baseline_share.xml"
     },

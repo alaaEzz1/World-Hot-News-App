@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.curioustechizen.android-ago:library:1.4.0@aar">
     <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/5c909ac52244c59fa602711e9bf1e0f1/transformed/jetified-library-1.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/5c909ac52244c59fa602711e9bf1e0f1/transformed/jetified-library-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/5c909ac52244c59fa602711e9bf1e0f1/transformed/jetified-library-1.4.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/5c909ac52244c59fa602711e9bf1e0f1/transformed/jetified-library-1.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

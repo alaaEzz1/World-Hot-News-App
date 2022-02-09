@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.d-max:spots-dialog:0.7@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/77933aa6180ce4cb22116545a532e802/transformed/jetified-spots-dialog-0.7/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/77933aa6180ce4cb22116545a532e802/transformed/jetified-spots-dialog-0.7/res" />
       <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/77933aa6180ce4cb22116545a532e802/transformed/jetified-spots-dialog-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/77933aa6180ce4cb22116545a532e802/transformed/jetified-spots-dialog-0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/77933aa6180ce4cb22116545a532e802/transformed/jetified-spots-dialog-0.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/com.github.d-max/spots-dialog/0.7/c18ce621f6523c461bdc07c3d7b77938c891404b/spots-dialog-0.7-javadoc.jar!/" />
