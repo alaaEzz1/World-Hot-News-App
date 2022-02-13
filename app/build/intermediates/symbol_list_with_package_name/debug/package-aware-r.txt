@@ -3026,6 +3026,12 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id show_author
+id show_content
+id show_description
+id show_img
+id show_time
+id show_title
 id sin
 id skipCollapsed
 id skipped
@@ -3205,6 +3211,7 @@ layout abc_tooltip
 layout activity_detailed_news
 layout activity_liststack
 layout activity_main
+layout activity_show_news
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout card_item

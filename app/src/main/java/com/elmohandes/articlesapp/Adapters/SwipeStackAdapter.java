@@ -9,12 +9,15 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.elmohandes.articlesapp.Activities.ShowNewsActivity;
 import com.elmohandes.articlesapp.Models.Articles;
 import com.elmohandes.articlesapp.R;
 import com.elmohandes.articlesapp.util.Constans;
@@ -85,7 +88,7 @@ public class SwipeStackAdapter extends BaseAdapter {
 
                         @Override
                         public void onError(Exception e) {
-
+                            progressBar.setVisibility(View.GONE);
                         }
                     });
         }
@@ -129,6 +132,41 @@ public class SwipeStackAdapter extends BaseAdapter {
                     Toast.LENGTH_SHORT).show();
 
         });
+
+        articleImage.setOnClickListener(v -> {
+            Intent intent = new Intent(context, ShowNewsActivity.class);
+            intent.putExtra("content" ,
+                    articlesList.get(position).getContent());
+            intent.putExtra("title" ,
+                    articlesList.get(position).getTitle());
+            intent.putExtra("description" ,
+                    articlesList.get(position).getDescription());
+            intent.putExtra("img" ,
+                    articlesList.get(position).getUrlToImage());
+            context.startActivity(intent);
+            intent.putExtra("time" ,
+                    articlesList.get(position).getPublishedAt());
+            intent.putExtra("author" ,
+                    articlesList.get(position).getAuthor());
+        });
+
+        title.setOnClickListener(v -> {
+            Intent intent = new Intent(context, ShowNewsActivity.class);
+            intent.putExtra("content" ,
+                    articlesList.get(position).getContent());
+            intent.putExtra("title" ,
+                    articlesList.get(position).getTitle());
+            intent.putExtra("description" ,
+                    articlesList.get(position).getDescription());
+            intent.putExtra("img" ,
+                    articlesList.get(position).getUrlToImage());
+            intent.putExtra("time" ,
+                    articlesList.get(position).getPublishedAt());
+            intent.putExtra("author" ,
+                    articlesList.get(position).getAuthor());
+            context.startActivity(intent);
+        });
+
 
         return view;
     }

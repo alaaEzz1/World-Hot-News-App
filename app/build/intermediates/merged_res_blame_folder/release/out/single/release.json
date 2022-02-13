@@ -12,12 +12,12 @@
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-mdpi\\ic_app_icon.png"
     },
     {
-        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_find_in_page.png.flat",
-        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_find_in_page.png"
-    },
-    {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_find_in_page.png.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_find_in_page.png"
     },
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -110,6 +110,10 @@
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_baseline_share.xml.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\drawable\\ic_baseline_share.xml"
+    },
+    {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\layout_activity_show_news.xml.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\activity_show_news.xml"
     },
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_channels_icon.png.flat",

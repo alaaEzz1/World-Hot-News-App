@@ -1,6 +1,7 @@
 package com.elmohandes.articlesapp.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.elmohandes.articlesapp.Activities.ShowNewsActivity;
 import com.elmohandes.articlesapp.Models.DetailedNews;
 import com.elmohandes.articlesapp.R;
 import com.elmohandes.articlesapp.databinding.DetailedNewsItemBinding;
@@ -51,6 +53,17 @@ public class DetailedNewsAdapter extends RecyclerView.Adapter<DetailedNewsAdapte
         if (article.getUrl() != null){
             holder.binding.detailedLink.setText(article.getUrl());
         }
+
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, ShowNewsActivity.class);
+            intent.putExtra("contentAll" , article.getContent());
+            intent.putExtra("titleAll" , article.getTitle());
+            intent.putExtra("descriptionAll" , article.getDescription());
+            intent.putExtra("imgAll" , article.getUrlToImage());
+            intent.putExtra("timeAll" , article.getPublishedAt());
+            intent.putExtra("authorAll" , article.getAuthor());
+            context.startActivity(intent);
+        });
 
     }
 

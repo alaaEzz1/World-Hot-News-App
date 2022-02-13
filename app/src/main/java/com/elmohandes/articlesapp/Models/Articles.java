@@ -2,18 +2,27 @@ package com.elmohandes.articlesapp.Models;
 
 public class Articles {
 
-    private String author, title , description , url , urlToImage , publishedAt;
+    private String author, title , description , url , urlToImage , publishedAt,content;
 
     public Articles(){}
 
     public Articles(String author, String title, String description, String url,
-                    String urlToImage, String publishedAt) {
+                    String urlToImage, String publishedAt,String content) {
         this.author = author;
         this.title = title;
         this.description = description;
         this.urlToImage = urlToImage;
         this.url = url;
         this.publishedAt = publishedAt;
+        this.content = content;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public String getAuthor() {
