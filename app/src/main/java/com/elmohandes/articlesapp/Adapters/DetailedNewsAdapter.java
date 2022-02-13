@@ -62,6 +62,7 @@ public class DetailedNewsAdapter extends RecyclerView.Adapter<DetailedNewsAdapte
             intent.putExtra("imgAll" , article.getUrlToImage());
             intent.putExtra("timeAll" , article.getPublishedAt());
             intent.putExtra("authorAll" , article.getAuthor());
+            intent.putExtra("linkAll" , article.getUrl());
             context.startActivity(intent);
         });
 

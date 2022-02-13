@@ -12,6 +12,10 @@
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\card_item.xml"
     },
     {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_show_news.xml",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\activity_show_news.xml"
+    },
+    {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_liststack.xml",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout\\activity_liststack.xml"
     },

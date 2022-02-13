@@ -41,6 +41,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ArticlesApp" >
         <activity
+            android:name="com.elmohandes.articlesapp.Activities.ShowNewsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.elmohandes.articlesapp.Activities.DetailedNewsActivity"
             android:exported="false" />
         <activity

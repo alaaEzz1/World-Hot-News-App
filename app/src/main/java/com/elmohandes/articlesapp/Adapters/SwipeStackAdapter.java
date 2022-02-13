@@ -143,11 +143,15 @@ public class SwipeStackAdapter extends BaseAdapter {
                     articlesList.get(position).getDescription());
             intent.putExtra("img" ,
                     articlesList.get(position).getUrlToImage());
-            context.startActivity(intent);
             intent.putExtra("time" ,
                     articlesList.get(position).getPublishedAt());
             intent.putExtra("author" ,
                     articlesList.get(position).getAuthor());
+            intent.putExtra("link" ,
+                    articlesList.get(position).getUrl());
+
+            context.startActivity(intent);
+
         });
 
         title.setOnClickListener(v -> {
@@ -164,6 +168,8 @@ public class SwipeStackAdapter extends BaseAdapter {
                     articlesList.get(position).getPublishedAt());
             intent.putExtra("author" ,
                     articlesList.get(position).getAuthor());
+            intent.putExtra("link" ,
+                    articlesList.get(position).getUrl());
             context.startActivity(intent);
         });
 
