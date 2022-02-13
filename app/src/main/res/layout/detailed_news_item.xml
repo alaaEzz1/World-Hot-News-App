@@ -53,6 +53,7 @@
             android:textSize="@dimen/_10ssp"
             android:padding="@dimen/_4sdp"
             android:gravity="center"
+            android:autoLink="web"
             android:layout_marginTop="@dimen/_8sdp"
             android:layout_marginStart="@dimen/_8sdp"
             android:layout_marginEnd="@dimen/_8sdp"

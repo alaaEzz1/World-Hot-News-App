@@ -20,6 +20,10 @@
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-hdpi\\ic_app_icon.png"
     },
     {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\layout-ldrtl_activity_detailed_news.xml.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout-ldrtl\\activity_detailed_news.xml"
+    },
+    {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\layout-land_card_item.xml.flat",
+        "source": "E:\\projects\\android\\java\\Articles App\\app\\src\\main\\res\\layout-land\\card_item.xml"
     },
     {
         "merged": "E:\\projects\\android\\java\\Articles App\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",

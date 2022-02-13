@@ -42,7 +42,9 @@ public class DetailedNewsActivity extends AppCompatActivity {
         articleList = new ArrayList<>();
         apiInterface = APIClient.getApiClient().create(APIInterface.class);
         adapter = new DetailedNewsAdapter(this,articleList);
-        detailed_rv.setLayoutManager(new LinearLayoutManager(this));
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(RecyclerView.HORIZONTAL);
+        detailed_rv.setLayoutManager(layoutManager);
         detailed_rv.setAdapter(adapter);
 
         if (!id.isEmpty()){

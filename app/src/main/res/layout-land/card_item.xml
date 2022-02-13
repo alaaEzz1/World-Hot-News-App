@@ -7,20 +7,21 @@
     app:cardElevation="@dimen/_5sdp"
     app:cardCornerRadius="@dimen/_5sdp">
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/relative_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="horizontal"
         android:background="@color/teal_700">
 
         <RelativeLayout
             android:id="@+id/relative_img"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/_200sdp"
             android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/card_img"
-                android:layout_width="match_parent"
+                android:layout_width="@dimen/_200sdp"
                 android:layout_height="@dimen/_200sdp"
                 android:scaleType="fitXY"
                 android:src="@mipmap/ic_find_in_page" />
@@ -62,12 +63,12 @@
                     android:id="@+id/card_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/card_title"
                     android:layout_marginStart="@dimen/_5sdp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
                     android:layout_marginBottom="@dimen/_5sdp"
                     android:padding="@dimen/_4sdp"
-                    android:visibility="gone"
                     android:text="The description will be here"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_12ssp" />
@@ -76,6 +77,7 @@
                     android:id="@+id/card_link"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/card_description"
                     android:layout_marginStart="@dimen/_5sdp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
@@ -126,6 +128,6 @@
 
         </RelativeLayout>
 
-    </RelativeLayout>
+    </LinearLayout>
 
 </androidx.cardview.widget.CardView>

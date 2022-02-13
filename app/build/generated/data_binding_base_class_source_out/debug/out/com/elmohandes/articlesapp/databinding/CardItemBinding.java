@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -50,7 +51,10 @@ public final class CardItemBinding implements ViewBinding {
   public final TextView cardWebsitenameTxt;
 
   @NonNull
-  public final RelativeLayout relativeContainer;
+  public final LinearLayout lnTxt;
+
+  @NonNull
+  public final View relativeContainer;
 
   @NonNull
   public final RelativeLayout relativeImg;
@@ -59,7 +63,8 @@ public final class CardItemBinding implements ViewBinding {
       @NonNull TextView cardDescription, @NonNull ImageView cardImg, @NonNull TextView cardLink,
       @NonNull ProgressBar cardProgress, @NonNull ImageView cardShare, @NonNull TextView cardTime,
       @NonNull TextView cardTitle, @NonNull TextView cardWebsitenameTxt,
-      @NonNull RelativeLayout relativeContainer, @NonNull RelativeLayout relativeImg) {
+      @NonNull LinearLayout lnTxt, @NonNull View relativeContainer,
+      @NonNull RelativeLayout relativeImg) {
     this.rootView = rootView;
     this.articleCard = articleCard;
     this.cardDescription = cardDescription;
@@ -70,6 +75,7 @@ public final class CardItemBinding implements ViewBinding {
     this.cardTime = cardTime;
     this.cardTitle = cardTitle;
     this.cardWebsitenameTxt = cardWebsitenameTxt;
+    this.lnTxt = lnTxt;
     this.relativeContainer = relativeContainer;
     this.relativeImg = relativeImg;
   }
@@ -151,8 +157,14 @@ public final class CardItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ln_txt;
+      LinearLayout lnTxt = ViewBindings.findChildViewById(rootView, id);
+      if (lnTxt == null) {
+        break missingId;
+      }
+
       id = R.id.relative_container;
-      RelativeLayout relativeContainer = ViewBindings.findChildViewById(rootView, id);
+      View relativeContainer = ViewBindings.findChildViewById(rootView, id);
       if (relativeContainer == null) {
         break missingId;
       }
@@ -164,7 +176,7 @@ public final class CardItemBinding implements ViewBinding {
       }
 
       return new CardItemBinding((CardView) rootView, articleCard, cardDescription, cardImg,
-          cardLink, cardProgress, cardShare, cardTime, cardTitle, cardWebsitenameTxt,
+          cardLink, cardProgress, cardShare, cardTime, cardTitle, cardWebsitenameTxt, lnTxt,
           relativeContainer, relativeImg);
     }
     String missingId = rootView.getResources().getResourceName(id);

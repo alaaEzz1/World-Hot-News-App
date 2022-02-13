@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout-land/card_item.xml" value="0.264" />
+        <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout-ldrtl/activity_detailed_news.xml" value="0.10822401614530777" />
         <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout-ldrtl/item_source.xml" value="0.10822401614530777" />
-        <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout/activity_detailed_news.xml" value="0.10822401614530777" />
+        <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout/activity_detailed_news.xml" value="0.1" />
         <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout/activity_liststack.xml" value="0.176" />
         <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout/activity_main.xml" value="0.136" />
         <entry key="..\:/projects/android/java/Articles App/app/src/main/res/layout/card_item.xml" value="0.176" />

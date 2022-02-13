@@ -106,7 +106,12 @@ public class SwipeStackAdapter extends BaseAdapter {
             }
         }
 
-        description.setText(articlesList.get(position).getDescription());
+        if (articlesList.get(position).getDescription() != null){
+            description.setText(articlesList.get(position).getDescription());
+            description.setVisibility(View.VISIBLE);
+        }else {
+            description.setVisibility(View.GONE);
+        }
         url.setText(articlesList.get(position).getUrl());
         author.setText(articlesList.get(position).getAuthor());
 
